@@ -52,7 +52,7 @@ public class FreeMarkerTest {
         Writer out = new FileWriter("myweb.html");
         template.process(dataModel, out);
 
-        // 生成文件后别忘了关闭哦
+        // 关闭资源
         out.close();
     }
 }

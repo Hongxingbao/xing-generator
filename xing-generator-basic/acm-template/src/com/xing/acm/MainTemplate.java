@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * ACM 输入模板（多数之和）
- * @author 啊星
+ * @author hongixng
  */
 public class MainTemplate {
     public static void main(String[] args) {
@@ -27,7 +27,7 @@ public class MainTemplate {
                 sum += num;
             }
 
-            System.out.println("输出结果是" + sum);
+            System.out.println("fafa" + sum);
         }
         scanner.close();
     }
